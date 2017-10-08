@@ -192,9 +192,9 @@
 
 <noscript>
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502834117/chart_naedwl.jpg" />
-</noscript></picture> <figcaption>Per the \[HTTP Archive\](http://jsfiddle.net/rviscomi/rzneberp/embedded/result/), per-image savings at the 95th percentile (looking at the Cumulative Distribution Function) are 30KB!</strong></figcaption> </figure> 
+</noscript></picture> <figcaption>根据从不失意的\[HTTP Archive\](http://jsfiddle.net/rviscomi/rzneberp/embedded/result/)，从累积分布函数来看，在95%梯队上，每个图像将节约近30KB。</strong></figcaption> </figure> 
 
-There's plenty of room for us to collectively optimize images better.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502519576/essential-image-optimization/image-optim.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502519576/essential-image-optimization/image-optim.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502519576/essential-image-optimization/image-optim.jpg" /> 
+我们仍有很多空间来批量优化图像。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502519576/essential-image-optimization/image-optim.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502519576/essential-image-optimization/image-optim.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502519576/essential-image-optimization/image-optim.jpg" /> 
 
 <img
         class="lazyload small"
@@ -203,7 +203,7 @@ There's plenty of room for us to collectively optimize images better.<figure> <p
 
 <noscript>
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502519576/essential-image-optimization/image-optim.jpg" />
-</noscript></picture> <figcaption>ImageOptim is free, reduces image size through modern compression techniques and by stripping unnecessary EXIF meta-data. </figcaption> </figure> 
+</noscript></picture> <figcaption>ImageOptim是免费的，可以通过现代压缩技术和剔除不必要的EXIF元数据来降低图像的大小。</figcaption> </figure> 
 
 If you're a designer, there's also an [ImageOptim plugin for Sketch](https://github.com/ImageOptim/Sketch-plugin) that will optimize your assets on export. I've found it a huge time saver.
 
