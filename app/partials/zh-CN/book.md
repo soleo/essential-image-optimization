@@ -170,7 +170,7 @@
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image00.jpg" />
 </noscript></picture> <figcaption>据2016年的\[Soasta／谷歌研究\](https://www.thinkwithgoogle.com/marketing-resources/experience-design/mobile-page-speed-load-time/) ，图像是影响转换率的排行老二的杀手。高转换率的页面通常比一般网页少38%的图像。</figcaption> </figure> 
 
-Image optimization consists of different measures that can reduce the file size of your images. It ultimately depends on what visual fidelity your images require.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/image-optimisation" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/image-optimisation" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/image-optimisation" /> 
+图像优化包含了各种不同的技巧来降低图像的文件大小。最终的决定因素取决于你所需要的视觉保真度。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/image-optimisation" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/image-optimisation" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/image-optimisation" /> 
 
 <img
         class="lazyload small"
