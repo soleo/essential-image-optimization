@@ -29,7 +29,7 @@
 <p>
   <ul>
     <li>
-      <a href="#introduction">Introduction</a>
+      <a href="#introduction">简介</a>
     </li>
     <li>
       <a href="#do-my-images-need-optimization">How can I tell if my images need to be optimized?</a>
