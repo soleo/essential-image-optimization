@@ -32,30 +32,30 @@
       <a href="#introduction">简介</a>
     </li>
     <li>
-      <a href="#do-my-images-need-optimization">How can I tell if my images need to be optimized?</a>
+      <a href="#do-my-images-need-optimization">如何才能看出我的图像需要被优化呢？</a>
     </li>
     <li>
-      <a href="#choosing-an-image-format">How do I choose an image format?</a>
+      <a href="#choosing-an-image-format">图像格式辣么多，我该怎么选呢？</a>
     </li>
     <li>
-      <a href="#the-humble-jpeg">The humble JPEG</a>
+      <a href="#the-humble-jpeg">谦逊的JPEG</a>
     </li>
     <li>
-      <a href="#jpeg-compression-modes">JPEG compression modes</a> <ul>
+      <a href="#jpeg-compression-modes">JPEG压缩模式</a> <ul>
         <li>
-          <a href="#the-advantages-of-progressive-jpegs">The advantages of Progressive JPEGs</a>
+          <a href="#the-advantages-of-progressive-jpegs">渐进式JPEG的优势</a>
         </li>
         <li>
-          <a href="#whos-using-progressive-jpegs-in-production">Who's using Progressive JPEGs in production?</a>
+          <a href="#whos-using-progressive-jpegs-in-production">目前都有谁在生产环境里使用JPEG？</a>
         </li>
         <li>
-          <a href="#the-disadvantages-of-progressive-jpegs">The disadvantages of Progressive JPEGs</a>
+          <a href="#the-disadvantages-of-progressive-jpegs">渐进式JPEG的劣势</a>
         </li>
         <li>
-          <a href="#how-to-create-progressive-jpegs">How do you create Progressive JPEGs?</a>
+          <a href="#how-to-create-progressive-jpegs">如何创建渐进式JPEG？</a>
         </li>
         <li>
-          <a href="#chroma-subsampling">Chroma (or Color) Subsampling</a>
+          <a href="#chroma-subsampling">色度（或者颜色）采样</a>
         </li>
         <li>
           <a href="#how-far-have-we-come-from-the-jpeg">How far have we come from the JPEG?</a>
@@ -78,7 +78,7 @@
       </ul>
     </li>
     <li>
-      <a href="#what-is-webp">What is WebP?</a> <ul>
+      <a href="#what-is-webp">什么是WebP？</a> <ul>
         <li>
           <a href="#how-does-webp-perform">How does WebP perform?</a>
         </li>
@@ -103,7 +103,7 @@
       </ul>
     </li>
     <li>
-      <a href="#svg-optimization">SVG optimization</a>
+      <a href="#svg-optimization">SVG优化</a>
     </li>
     <li>
       <a href="#avoid-recompressing-images-lossy-codecs">Avoid recompressing images with lossy codecs</a>
@@ -119,34 +119,34 @@
       </ul>
     </li>
     <li>
-      <a href="#color-management">Color management</a>
+      <a href="#color-management">色彩管理</a>
     </li>
     <li>
       <a href="#image-sprites">Image spriting</a>
     </li>
     <li>
-      <a href="#lazy-load-non-critical-images">Lazy-load non-critical images</a>
+      <a href="#lazy-load-non-critical-images">缓后加载非关键图像</a>
     </li>
     <li>
-      <a href="#display-none-trap">Avoiding the <code>display: none;</code> trap</a>
+      <a href="#display-none-trap">避免走进 <code>display: none;</code>的陷阱</a>
     </li>
     <li>
-      <a href="#image-processing-cdns">Does an image processing CDN make sense for you?</a>
+      <a href="#image-processing-cdns">你需要图像处理CDN吗？</a>
     </li>
     <li>
-      <a href="#caching-image-assets">Caching image assets</a>
+      <a href="#caching-image-assets">缓冲图像资源</a>
     </li>
     <li>
-      <a href="#preload-critical-image-assets">Preloading critical image assets</a>
+      <a href="#preload-critical-image-assets">预加载关键图像资源</a>
     </li>
     <li>
-      <a href="#performance-budgets">Performance Budgets For Images</a>
+      <a href="#performance-budgets">图像的性能预算</a>
     </li>
     <li>
-      <a href="#closing-recommendations">Closing recommendations</a>
+      <a href="#closing-recommendations">最后的建议</a>
     </li>
     <li>
-      <a href="#trivia">Trivia</a>
+      <a href="#trivia">一些犄角旮旯的要点</a>
     </li>
   </ul>
 </p>
