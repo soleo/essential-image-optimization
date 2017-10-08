@@ -260,7 +260,7 @@
 
 [位图](https://en.wikipedia.org/wiki/Raster_graphics)所代表的图像是通过在一个方形网格内的每个像素进行编码所体现出来的。 它们独立于分辨率和缩放。 如果需要像照片似的效果，WebP抑或被广泛支持的格式，如JPEG、PNG能很好地做到。 我们所讨论到的Guetzli、MozJPEG以及另一些做法能很好地应用到位图图像处理中。
 
-[Vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) use points, lines and polygons to represent images and formats using simple geometric shapes (e.g logos) offering a high-resolution and zoom like SVG handle this use case better.
+[矢量图](https://en.wikipedia.org/wiki/Vector_graphics)使用点、线和多边形来展现图像。使用简单几何形状的格式使其高分辨率和缩放无损（如SVG），能更好处理Logo这类用例。
 
 The wrong format can cost you. The logical flow for choosing the right format can be fraught with peril so experiment with the savings other formats can afford with care.
 
