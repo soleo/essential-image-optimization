@@ -10,7 +10,7 @@
 
 **每个人都应该有效地做压缩图像。**
 
-最基本的可以使用 [ImageOptim](https://imageoptim.com/)。 它可以显著地降低图像的大小，而同时又保持视觉效果。 市面上也有Windows和Linux平台的 [替代品](https://imageoptim.com/versions.html)。
+最基本的可以使用 [ImageOptim](https://imageoptim.com/)。 它可以显著地降低图像的大小，而同时又保持视觉效果。 ImageOptim也有支持Windows和Linux平台的 [版本](https://imageoptim.com/versions.html)。
 
 More specifically: run your JPEGs through [MozJPEG](https://github.com/mozilla/mozjpeg) (`q=80` or lower is fine for web content) and consider [Progressive JPEG](http://cloudinary.com/blog/progressive_jpegs_and_green_martians) support, PNGs through [pngquant](https://pngquant.org/) and SVGs through [SVGO](https://github.com/svg/svgo). Explicitly strip out metadata (`--strip` for pngquant) to avoid bloat. Instead of crazy huge animated GIFs, deliver [H.264](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC) videos (or [WebM](https://www.webmproject.org/) for Chrome, Firefox and Opera)! If you can't at least use [Giflossy](https://github.com/pornel/giflossy). If you can spare the extra CPU cycles, need higher-than-web-average quality and are okay with slow encode times: try [Guetzli](https://research.googleblog.com/2017/03/announcing-guetzli-new-open-source-jpeg.html).
 
