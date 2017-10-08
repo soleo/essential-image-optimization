@@ -1,0 +1,3 @@
+files:
+  - source: /app/partials/*.md
+    translation: /app/partials/%locale%/%original_file_name%
