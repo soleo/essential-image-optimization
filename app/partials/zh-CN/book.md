@@ -4,9 +4,9 @@
 
 如今已是2017年，图像优化本应该被自动化。 最佳实践总在变，还容易被遗忘，不经过生产线的内容很容易被忽略，怎么办？ 自动化帮你忙：在生产过程中使用 [imagemin](https://github.com/imagemin/imagemin) 或者 [libvps](https://github.com/jcupitt/libvips) 。 还有更多替代方案来帮你解决。
 
-大部分CDN（例如 [Akamai](https://www.akamai.com/us/en/solutions/why-akamai/image-management.jsp)）和第三方解决方案类似[Cloudinary](https://cloudinary.com)、[imgix](https://imgix.com)、[Fastly的Image Optimizer](https://www.fastly.com/io/)、[Instart Logic的 SmartVision](https://www.instartlogic.com/technology/machine-learning/smartvision)或者 [ImageOptim API](https://imageoptim.com/api) 提供易于理解且自动化的图像优化方案。
+大部分CDN（例如 [Akamai](https://www.akamai.com/us/en/solutions/why-akamai/image-management.jsp)）和第三方解决方案类似[Cloudinary](https://cloudinary.com)、[imgix](https://imgix.com)、[Fastly的Image Optimizer](https://www.fastly.com/io/)、[Instart Logic的SmartVision](https://www.instartlogic.com/technology/machine-learning/smartvision)或者 [ImageOptim API](https://imageoptim.com/api) 提供易于理解且自动化的图像优化方案。
 
-The amount of time you'll spend reading blog posts and tweaking your config is greater than the monthly fee for a service (Cloudinary has a [free](http://cloudinary.com/pricing) tier). If you don't want to outsource this work for cost or latency concerns, the open-source options above are solid. Projects like [Imageflow](https://github.com/imazen/imageflow) or [Thumbor](https://github.com/thumbor/thumbor) enable self-hosted alternatives.
+你花在读博客和调整配置的时间是要远远大于一个服务商（Cloudinary有[免费](http://cloudinary.com/pricing)选项）的月费。 If you don't want to outsource this work for cost or latency concerns, the open-source options above are solid. Projects like [Imageflow](https://github.com/imazen/imageflow) or [Thumbor](https://github.com/thumbor/thumbor) enable self-hosted alternatives.
 
 **Everyone should be compressing their images efficiently.**
 
