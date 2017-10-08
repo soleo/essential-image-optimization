@@ -205,11 +205,11 @@
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502519576/essential-image-optimization/image-optim.jpg" />
 </noscript></picture> <figcaption>ImageOptim是免费的，可以通过现代压缩技术和剔除不必要的EXIF元数据来降低图像的大小。</figcaption> </figure> 
 
-If you're a designer, there's also an [ImageOptim plugin for Sketch](https://github.com/ImageOptim/Sketch-plugin) that will optimize your assets on export. I've found it a huge time saver.
+如果你是一个设计师，[ImageOptim的Sketch插件](https://github.com/ImageOptim/Sketch-plugin)可以在导出时进行优化。我个人觉得它是拯救时间的利器。
 
-### [How can I tell if my images need to be optimized?](#do-my-images-need-optimization){#do-my-images-need-optimization}
+### [如何才能看出我的图像需要被优化呢？](#do-my-images-need-optimization){#do-my-images-need-optimization}
 
-Perform a site audit through [WebPageTest.org](https://www.webpagetest.org/) and it will highlight opportunities to better optimize your images (see "Compress Images").<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image1.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image1.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image1.jpg" /> 
+用</a>WebPageTest.org</0>对一个网站进行审计，它将会高亮显示出可以更好地优化图像的地方（详细看"Compress Images"部分）。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image1.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image1.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image1.jpg" /> 
 
 <img
         class="lazyload small"
@@ -218,7 +218,7 @@ Perform a site audit through [WebPageTest.org](https://www.webpagetest.org/) and
 
 <noscript>
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image1.jpg" />
-</noscript></picture> <figcaption>The "Compress Images" section of a WebPageTest report lists images that can be compressed more efficiently and the estimated file-size savings of doing so. </figcaption> </figure> <figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image2.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image2.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image2.jpg" /> 
+</noscript></picture> <figcaption>一个WebPageTest报告的"Compress Images"部分例举了那么些可以被更有效压缩的图像和压缩后所带来的文件大小节约的估计值</figcaption> </figure> <figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image2.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image2.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image2.jpg" /> 
 
 <img
         class="lazyload small"
