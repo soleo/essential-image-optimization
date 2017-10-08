@@ -181,9 +181,9 @@
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/image-optimisation" />
 </noscript></picture> <figcaption>
 
-**Image optimization:** Choose the right format, compress carefully and prioritize critical images over those that can be lazy-loaded.</figcaption> </figure> 
+**图像优化：**选择合适的格式、仔细地压缩、优先关键图像相较于那么非关键缓后加载的图像。</figcaption> </figure> 
 
-Common image optimizations include compression, responsively serving them down based on screen size using [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)/[`<img srcset>`](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images), and resizing them to reduce image decode costs.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502834117/chart_naedwl.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502834117/chart_naedwl.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502834117/chart_naedwl.jpg" /> 
+常用的图像优化包括压缩、根据屏幕大小使用[`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)或者[`<img srcset>`](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)提供响应式的图像，以及降低图像大小调整所需要的解码成本。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502834117/chart_naedwl.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502834117/chart_naedwl.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502834117/chart_naedwl.jpg" /> 
 
 <img
         class="lazyload small"
