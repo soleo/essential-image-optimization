@@ -246,7 +246,7 @@
 
 ## [图像格式辣么多，我该怎么选呢？](#choosing-an-image-format){#choosing-an-image-format}
 
-在 Ilya Grigorik的极好的[图像优化指南](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)中所述，一个图像的“最正确的格式”应该是结合了需要的视觉效果和功能需求的双重因素所决定的。 Are you working with Raster or Vector images?<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502469573/essential-image-optimization/rastervvector.png" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502469573/essential-image-optimization/rastervvector.png" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/q_100/v1502469573/essential-image-optimization/rastervvector.png" /> 
+在 Ilya Grigorik的极好的[图像优化指南](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)中所述，一个图像的“最正确的格式”应该是结合了需要的视觉效果和功能需求的双重因素所决定的。 你所处理的图像是位图还是矢量图？<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502469573/essential-image-optimization/rastervvector.png" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502469573/essential-image-optimization/rastervvector.png" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/q_100/v1502469573/essential-image-optimization/rastervvector.png" /> 
 
 <img
         class="lazyload very-small"
@@ -258,7 +258,7 @@
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/q_100/v1502469573/essential-image-optimization/rastervvector.png" />
 </noscript></picture> </figure> 
 
-[Raster graphics](https://en.wikipedia.org/wiki/Raster_graphics) represent images by encoding the values of each pixel within a rectangular grid of pixels. They are not resolution or zoom independent. WebP or widely supported formats like JPEG or PNG handle these graphics well where photorealism is a necessity. Guetzli, MozJPEG and other ideas we've discussed apply well to raster graphics.
+[位图](https://en.wikipedia.org/wiki/Raster_graphics)所代表的图像是通过在一个方形网格内的每个像素进行编码所体现出来的。 它们独立于分辨率和缩放。 如果需要像照片似的效果，WebP抑或被广泛支持的格式，如JPEG、PNG能很好地做到。 我们所讨论到的Guetzli、MozJPEG以及另一些做法能很好地应用到位图图像处理中。
 
 [Vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) use points, lines and polygons to represent images and formats using simple geometric shapes (e.g logos) offering a high-resolution and zoom like SVG handle this use case better.
 
