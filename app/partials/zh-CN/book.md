@@ -16,9 +16,9 @@
 
 某些浏览器标榜通过接受request header来支持不同的图像格式。 我们可以通过条件式地提供不同的格式给不同的浏览器：例如提供 [WebP](https://developers.google.com/speed/webp/)格式的文件给以Blink引擎为基础的浏览器（谷歌浏览器）；提供 JPEG/PNG之类的图像文件给其他浏览器。
 
-还有更多你能做的优化。 Tools exists to generate and serve `srcset` breakpoints. Resource selection can be automated in Blink-based browsers with [client-hints](https://developers.google.com/web/updates/2015/09/automating-resource-selection-with-client-hints) and you can ship fewer bytes to users who opted into "data savings" in-browser by heeding the [Save-Data](https://developers.google.com/web/updates/2016/02/save-data) hint.
+还有更多你能做的优化。 市面上还有工具可以生成和提供给 `srcset`而满足不同屏幕断点。 资源的选择可以在通过Blink引擎为基础的浏览器中的 [client-hints](https://developers.google.com/web/updates/2015/09/automating-resource-selection-with-client-hints) 来自动化，你也可以观察 [Save-Data](https://developers.google.com/web/updates/2016/02/save-data)这个提示给参与“数据节约”计划的用户提供更少的字节。
 
-The smaller in file-size you can make your images, the better a network experience you can offer your users - especially on mobile. In this write-up, we'll look at ways to reduce image size through modern compression techniques with minimal impact to quality.
+你所提供的图像文件越小，你能给用户提供的网络体验就越好。尤其在移动端，效果就更为显而易见。 In this write-up, we'll look at ways to reduce image size through modern compression techniques with minimal impact to quality.
 
 <details> <summary>
 
