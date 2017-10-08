@@ -242,11 +242,11 @@
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/hbo.jpg" />
 </noscript></picture> <figcaption>Lighthouse可为网络性能、最佳实践和渐进式网络应用功能提供审计</figcaption> </figure> 
 
-You may also be familiar of other performance auditing tools like [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) or [Website Speed Test](https://webspeedtest.cloudinary.com/) by Cloudinary which includes a detailed image analysis audit.
+你可能熟悉其他性能审计的工具，例如[PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)、 Cloudinary 的[Website Speed Test](https://webspeedtest.cloudinary.com/)。 Cloudinary的审计结果包含了详细的图像分析。
 
-## [How do I choose an image format?](#choosing-an-image-format){#choosing-an-image-format}
+## [图像格式辣么多，我该怎么选呢？](#choosing-an-image-format){#choosing-an-image-format}
 
-As Ilya Grigorik notes in his excellent [image optimization guide](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization), the "right format" for an image is a combination of desired visual results and functional requirements. Are you working with Raster or Vector images?<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502469573/essential-image-optimization/rastervvector.png" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502469573/essential-image-optimization/rastervvector.png" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/q_100/v1502469573/essential-image-optimization/rastervvector.png" /> 
+在 Ilya Grigorik的极好的[图像优化指南](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)中所述，一个图像的“最正确的格式”应该是结合了需要的视觉效果和功能需求的双重因素所决定的。 Are you working with Raster or Vector images?<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502469573/essential-image-optimization/rastervvector.png" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502469573/essential-image-optimization/rastervvector.png" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/q_100/v1502469573/essential-image-optimization/rastervvector.png" /> 
 
 <img
         class="lazyload very-small"
