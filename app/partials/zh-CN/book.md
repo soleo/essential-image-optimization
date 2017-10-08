@@ -229,9 +229,9 @@
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image2.jpg" />
 </noscript></picture> </figure> 
 
-[Lighthouse](https://developers.google.com/web/tools/lighthouse/) audits for performance best practices. It includes audits for image optimisation and can make suggestions for images that could be compressed further or point out images that are off-screen and could be lazy-loaded.
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/)用于性能最佳实践的审计。 它包含审计图像优化和提供图像可被进一步压缩的建议抑或指出某些图像不在当前可见屏幕范围，可被延后加载。
 
-As of Chrome 60, Lighthouse now powers the [Audits panel](https://developers.google.com/web/updates/2017/05/devtools-release-notes#lighthouse) in the Chrome DevTools:<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/hbo.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/hbo.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/hbo.jpg" /> 
+自谷歌浏览器版本60开始，Lighthouse现可以驱动谷歌浏览器开发者工具里的[Audits panel](https://developers.google.com/web/updates/2017/05/devtools-release-notes#lighthouse)。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/hbo.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/hbo.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/hbo.jpg" /> 
 
 <img
         class="lazyload small"
@@ -240,7 +240,7 @@ As of Chrome 60, Lighthouse now powers the [Audits panel](https://developers.goo
 
 <noscript>
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/hbo.jpg" />
-</noscript></picture> <figcaption>Lighthouse can audit for Web Performance, Best Practices and Progressive Web App features.</figcaption> </figure> 
+</noscript></picture> <figcaption>Lighthouse可为网络性能、最佳实践和渐进式网络应用功能提供审计</figcaption> </figure> 
 
 You may also be familiar of other performance auditing tools like [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) or [Website Speed Test](https://webspeedtest.cloudinary.com/) by Cloudinary which includes a detailed image analysis audit.
 
