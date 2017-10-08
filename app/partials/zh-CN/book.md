@@ -6,11 +6,11 @@
 
 大部分CDN（例如 [Akamai](https://www.akamai.com/us/en/solutions/why-akamai/image-management.jsp)）和第三方解决方案类似[Cloudinary](https://cloudinary.com)、[imgix](https://imgix.com)、[Fastly的Image Optimizer](https://www.fastly.com/io/)、[Instart Logic的SmartVision](https://www.instartlogic.com/technology/machine-learning/smartvision)或者 [ImageOptim API](https://imageoptim.com/api) 提供易于理解且自动化的图像优化方案。
 
-你花在读博客和调整配置的时间是要远远大于一个服务商（Cloudinary有[免费](http://cloudinary.com/pricing)选项）的月费。 If you don't want to outsource this work for cost or latency concerns, the open-source options above are solid. Projects like [Imageflow](https://github.com/imazen/imageflow) or [Thumbor](https://github.com/thumbor/thumbor) enable self-hosted alternatives.
+你花在读博客和调整配置的时间是要远远大于一个服务商（Cloudinary有[免费](http://cloudinary.com/pricing)选项）的月费。 如果你考虑到成本和延迟因素而不希望外包这项工作，那么以上所说的开源选项是再合适不过了（译者注：中国大陆可能不存在外包给别人而降低成本的因素）。 你也可以选择像 [Imageflow](https://github.com/imazen/imageflow) 或 [Thumbor](https://github.com/thumbor/thumbor)这类项目来自行托管来替代此类服务提供商。
 
-**Everyone should be compressing their images efficiently.**
+**每个人都应该有效地做压缩图像。**
 
-At minimum: use [ImageOptim](https://imageoptim.com/). It can significantly reduce the size of images while preserving visual quality. Windows and Linux [alternatives](https://imageoptim.com/versions.html) are also available.
+最基本的可以使用 [ImageOptim](https://imageoptim.com/)。 它可以显著地降低图像的大小，而同时又保持视觉效果。 市面上也有Windows和Linux平台的 [替代品](https://imageoptim.com/versions.html)。
 
 More specifically: run your JPEGs through [MozJPEG](https://github.com/mozilla/mozjpeg) (`q=80` or lower is fine for web content) and consider [Progressive JPEG](http://cloudinary.com/blog/progressive_jpegs_and_green_martians) support, PNGs through [pngquant](https://pngquant.org/) and SVGs through [SVGO](https://github.com/svg/svgo). Explicitly strip out metadata (`--strip` for pngquant) to avoid bloat. Instead of crazy huge animated GIFs, deliver [H.264](https://en.wikipedia.org/wiki/H.264/MPEG-4_AVC) videos (or [WebM](https://www.webmproject.org/) for Chrome, Firefox and Opera)! If you can't at least use [Giflossy](https://github.com/pornel/giflossy). If you can spare the extra CPU cycles, need higher-than-web-average quality and are okay with slow encode times: try [Guetzli](https://research.googleblog.com/2017/03/announcing-guetzli-new-open-source-jpeg.html).
 
