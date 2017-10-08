@@ -262,11 +262,11 @@
 
 [矢量图](https://en.wikipedia.org/wiki/Vector_graphics)使用点、线和多边形来展现图像。使用简单几何形状的格式使其高分辨率和缩放无损（如SVG），能更好处理Logo这类用例。
 
-The wrong format can cost you. The logical flow for choosing the right format can be fraught with peril so experiment with the savings other formats can afford with care.
+错误的格式为你带来损耗。选择符合逻辑的格式可能如履薄冰，所以要小心实验，步步逼近你所需要的节约的格式。
 
-Jeremy Wagner has covered [trade-offs](http://jlwagner.net/talks/these-images/#/2/2) worth considering when evaluating formats in his image optimization talks.
+Jeremy Wagner 在他的图像优化演讲中评估了不同格式所涵盖的[优劣势](http://jlwagner.net/talks/these-images/#/2/2)，极为值得参考。
 
-## [The humble JPEG.](#the-humble-jpeg){#the-humble-jpeg}
+## [谦逊的JPEG](#the-humble-jpeg){#the-humble-jpeg}
 
 The [JPEG](https://en.wikipedia.org/wiki/JPEG) may well be the world's most widely used image format. As noted earlier, [45% of the images](http://httparchive.org/interesting.php) seen on sites crawled by HTTP Archive are JPEGs. Your phone, your digital SLR, that old webcam - everything pretty much supports this codec. It's also very old, dating all the way back to 1992 when it was first released. In that time, there's been an immense body of research done attempting to improve what it offers.
 
