@@ -159,7 +159,7 @@
 
 图像占据了大量的互联网带宽，因为他们通常都是巨大的图像文件。 根据 [HTTP Archive](http://httparchive.org/)，当获取一个网页时， 60%的数据被传输是由JPEG、PNG和GIF组成的图像文件。 截至2017年7月，一个平均大小为3兆的网站，图像占据了[1.7兆](http://httparchive.org/interesting.php#bytesperpage)的内容。
 
-Per Tammy Everts, adding images to a page or making existing images larger have been [proven](https://calendar.perfplanet.com/2014/images-are-king-an-image-optimization-checklist-for-everyone-in-your-organization/) to increase conversion rates. It's unlikely that images will go away and so investing in an efficient compression strategy to minimize bloat becomes important.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image00.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image00.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image00.jpg" /> 
+据Tammy Everts所说，在一个页面中加入图像或者将当前页面中的图像变大是一个增加转换率的[公开秘密](https://calendar.perfplanet.com/2014/images-are-king-an-image-optimization-checklist-for-everyone-in-your-organization/)。 将图像移除显然是不可行的，所以提供一个有效的压缩手段来减小数据的膨胀就尤为重要。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image00.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image00.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image00.jpg" /> 
 
 <img
         class="lazyload small"
@@ -168,7 +168,7 @@ Per Tammy Everts, adding images to a page or making existing images larger have 
 
 <noscript>
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image00.jpg" />
-</noscript></picture> <figcaption>Per \[Soasta/Google research\](https://www.thinkwithgoogle.com/marketing-resources/experience-design/mobile-page-speed-load-time/) from 2016, images were the 2nd highest predictor of conversions with the best pages having 38% fewer images.</figcaption> </figure> 
+</noscript></picture> <figcaption>据2016年的\[Soasta／谷歌研究\](https://www.thinkwithgoogle.com/marketing-resources/experience-design/mobile-page-speed-load-time/) ，图像是影响转换率的排行老二的杀手。高转换率的页面通常比一般网页少38%的图像。</figcaption> </figure> 
 
 Image optimization consists of different measures that can reduce the file size of your images. It ultimately depends on what visual fidelity your images require.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/image-optimisation" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/image-optimisation" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/image-optimisation" /> 
 
