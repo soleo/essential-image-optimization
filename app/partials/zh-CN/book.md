@@ -18,11 +18,11 @@
 
 还有更多你能做的优化。 市面上还有工具可以生成和提供给 `srcset`而满足不同屏幕断点。 资源的选择可以在通过Blink引擎为基础的浏览器中的 [client-hints](https://developers.google.com/web/updates/2015/09/automating-resource-selection-with-client-hints) 来自动化，你也可以观察 [Save-Data](https://developers.google.com/web/updates/2016/02/save-data)这个提示给参与“数据节约”计划的用户提供更少的字节。
 
-你所提供的图像文件越小，你能给用户提供的网络体验就越好。尤其在移动端，效果就更为显而易见。 In this write-up, we'll look at ways to reduce image size through modern compression techniques with minimal impact to quality.
+你所提供的图像文件越小，你能给用户提供的网络体验就越好。尤其在移动端，效果就更为显而易见。 在这篇文章中，我们将探索使用不同的现代压缩技术来降低图像文件大小，而同时保证对图像最低的视觉效果影响。
 
 <details> <summary>
 
-## Table of Contents
+## 目录
 
 </summary>
 
@@ -153,11 +153,11 @@
 
 </details>
 
-### [Introduction](#introduction){#introduction}
+### [简介](#introduction){#introduction}
 
-**Images are still the number one cause of bloat on the web.**
+**图像仍是网络中引起数据膨胀的头号杀手。**
 
-Images take up massive amounts of internet bandwidth because they often have large file sizes. According to the [HTTP Archive](http://httparchive.org/), 60% of the data transferred to fetch a web page is images composed of JPEGs, PNGs and GIFs. As of July 2017, images accounted for [1.7MB](http://httparchive.org/interesting.php#bytesperpage) of the content loaded for the 3.0MB average site.
+图像占据了大量的互联网带宽，因为他们通常都是巨大的图像文件。 根据 [HTTP Archive](http://httparchive.org/)，当获取一个网页时， 60%的数据被传输是由JPEG、PNG和GIF组成的图像文件。 截至2017年7月，一个平均大小为3兆的网站，图像占据了[1.7兆](http://httparchive.org/interesting.php#bytesperpage)的内容。
 
 Per Tammy Everts, adding images to a page or making existing images larger have been [proven](https://calendar.perfplanet.com/2014/images-are-king-an-image-optimization-checklist-for-everyone-in-your-organization/) to increase conversion rates. It's unlikely that images will go away and so investing in an efficient compression strategy to minimize bloat becomes important.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image00.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image00.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image00.jpg" /> 
 
