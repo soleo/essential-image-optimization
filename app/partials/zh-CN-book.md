@@ -288,15 +288,15 @@ JPEG是一种有损压缩算法，它通过剔除某些信息从而达到节省�
 当你选择什么样的质量设定时，考虑一下你的图像应该落入哪个区间里：
 
 * **最佳质量**-当质量比带宽更重要。这可能是因为图像在你的设计中需要高度突出或全分辨率显示。
-* **Good quality** - when you care about shipping smaller file-sizes, but don't want to negatively impact image quality too much. Users still care about some level of image quality.
-* **Low quality** - when you care enough about bandwidth that image degradation is okay. These images are suitable for spotty/poor network conditions.
-* **Lowest quality** - bandwidth savings are paramount. Users want a decent experience but will accept a pretty degraded experience for the benefit of pages loading more quickly.
+* **普通质量**- 当你很在意文件分发的尺寸，但不太像对图像质量产生太多的负面影响。用户在某种程度上曾染关注图像质量。
+* **低质量**-当你很在意带宽的使用，甚至可以牺牲一些图像质量。这些图像在较差的网络环境条件下仍然比较合适。
+* **最低质量**- 节约带宽是头等大事。用户需要还行的体验，但是可以接受降级以后所带来的页面加载速度的优势。
 
-Next, let's talk about JPEG's compression modes as these can have a large impact on perceived performance.<aside class="note">
+接着，我们来说说JPEG不同的压缩模式，因为这些对感知到的性能有极大的影响。<aside class="note">
 
-**Note:** It's possible that we sometimes overestimate the image quality that our users need. Image quality could be considered a deviation from an ideal, uncompressed source. It can also be subjective.</aside> 
+**注：**有时候，我们可能高估了用户对图像质量的需求。 图像质量可以看作是从一个理想的、未压缩的源头的变种。 图像质量也可能是主观的。</aside> 
 
-## [JPEG compression modes](#jpeg-compression-modes){#jpeg-compression-modes}
+## [JPEG压缩模式](#jpeg-compression-modes){#jpeg-compression-modes}
 
 The JPEG image format has a number of different [compression modes](http://cs.haifa.ac.il/~nimrod/Compression/JPEG/J5mods2007.pdf). Three popular modes are baseline (sequential), Progressive JPEG (PJPEG) and lossless.
 
