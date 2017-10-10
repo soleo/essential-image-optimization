@@ -1681,7 +1681,7 @@ But if you're not comfortable working with image processing tools or APIs, then 
 
 If you are currently serving your own images or planning to, perhaps you should give a CDN some consideration.
 
-## [Caching image assets](#caching-image-assets){#caching-image-assets}
+## [缓冲图像资源](#caching-image-assets){#caching-image-assets}
 
 Resources can specify a caching policy using [HTTP cache headers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#cache-control). Specifically, `Cache-Control` can define who can cache responses and for how long
 
@@ -1691,7 +1691,7 @@ When setting your HTTP caching headers, set Cache-Control with a max-age of a ye
 
 **Note:** If you're serving images using PHP, it can destroy caching due to the default \[session_cache_limiter\](http://php.net/manual/en/function.session-cache-limiter.php) setting. This can be a disaster for image caching and you may want to \[work around\](https://stackoverflow.com/a/3905468) this by setting session_cache_limiter('public') which will set public, max-age=. Disabling and setting custom cache-control headers is also fine.</aside> 
 
-## [Preloading critical image assets](#preload-critical-image-assets){#preload-critical-image-assets}
+## [预加载关键图像资源](#preload-critical-image-assets){#preload-critical-image-assets}
 
 Critical image assets can be preloaded using [`<link rel=preload>`](https://www.w3.org/TR/preload/).
 
@@ -1753,7 +1753,7 @@ It's important to avoid using `rel=preload` to preload image formats without bro
 
 To learn more about preloading, see [Preload, Prefetch and Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf) and [Preload: What Is It Good For?](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/).
 
-## [Web Performance Budgets For Images](#performance-budgets){#performance-budgets}
+## [图像的网络性能预算](#performance-budgets){#performance-budgets}
 
 A performance budget is a "budget" for web page performance that a team attempts to not exceed. For example, "images will not exceed 200KB on any page" or "the user experience must be usable in under 3 seconds". When a budget isn't being met, explore why this is and how you get back on target.
 
@@ -1785,7 +1785,7 @@ Calibre offers a similar feature with support for setting budgets for each devic
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1505805371/essential-image-optimization/budgets.jpg" />
 </noscript></picture> </figure> 
 
-## [Closing recommendations](#closing-recommendations){#closing-recommendations}
+## [最后的建议](#closing-recommendations){#closing-recommendations}
 
 Ultimately, choosing an image optimization strategy will come down to the types of images you're serving down to your users and what you decide is a reasonable set of evaluation criteria. It might be using SSIM or Butteraugli or, if it's a small enough set of images, going off of human perception for what makes the most sense.
 
@@ -1801,7 +1801,7 @@ Happy compressing!<aside class="note">
 
 **Note:** For more practical guidance on how to optimize images, I heavily recommend \[Web Performance in Action\](https://www.manning.com/books/web-performance-in-action) by Jeremy Wagner. \[High Performance Images\](http://shop.oreilly.com/product/0636920039730.do) is also filled with excellent, nuanced advice on this topic.</aside> 
 
-## [Trivia](#trivia){#trivia}
+## [一些犄角旮旯的要点](#trivia){#trivia}
 
 * [JPEG XT](https://jpeg.org/jpegxt/) defines extensions to the 1992 JPEG specification. For extensions to have pixel-perfect rendering on-top of old JPEG, the specification had to clarify the old 1992 spec and [libjpeg-turbo](https://libjpeg-turbo.org/) was chosen as its reference implementation (baesd on popularity). 
 * [PIK](https://github.com/google/pik) is a new image codec worth keeping an eye on. It's compatible with JPEG, has a more efficient color-space and utilizes similar benefits found in Guetzli. It decodes at 2/3 the speed of JPEG and offers 54% more file savings than libjpeg does. It is both faster to decode and compress than Guetzli-ified JPEGs. A [study](https://encode.ru/threads/2814-Psychovisual-analysis-on-modern-lossy-image-codecs) on psychovisual similarity of modern image codes showed PIK was less than half the size of alternatives. Unfortunately, it's still early days for the codec and encoding is unusably slow at this time (August, 2017).
