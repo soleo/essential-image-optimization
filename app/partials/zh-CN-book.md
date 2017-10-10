@@ -324,9 +324,9 @@ JPEG图像格式有一系列不同的[压缩模式](http://cs.haifa.ac.il/~nimro
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image7.jpg" />
 </noscript></picture> <figcaption>基线JPEG加载图像是从上至下的 PJPEG加载图像是从低分辨率（模糊）到高分辨率。 Pat Meenan写的 \[交互式工具\](http://www.patrickmeenan.com/progressive/view.php?img=https%3A%2F%2Fwww.nps.gov%2Fplanyourvisit%2Fimages%2FGrandCanyonSunset_960w.jpg)里也测试过和提到过渐进式JPEG扫描的过程。 </figure> 
 
-Lossless JPEG optimization can be achieved by [removing EXIF data](http://www.verexif.com/en/) added by digital cameras or editors, optimizing an image's [Huffman tables](https://en.wikipedia.org/wiki/Huffman_coding), or rescanning the image. Tools like [jpegtran](http://jpegclub.org/jpegtran/) achieve lossless compression by rearranging the compressed data without image degradation. [jpegrescan](https://github.com/kud/jpegrescan), [jpegoptim](https://github.com/tjko/jpegoptim) and [mozjpeg](https://github.com/mozilla/mozjpeg) (which we'll cover shortly) also support lossless JPEG compression.
+无损JPEG优化是通过[剔除EXIF数据](http://www.verexif.com/en/)、优化图像的[霍夫曼编码](https://en.wikipedia.org/wiki/Huffman_coding)和重扫描图像达成的。而EXIF数据是由数码相机或者编辑器加入到图片中的。 像[jpengtran](http://jpegclub.org/jpegtran/)这样的工具通过重新排列他所的数据从而达到无所压缩。像这样的压缩并不会使图像质量降低。 [jpegrescan](https://github.com/kud/jpegrescan)、[jpegoptim](https://github.com/tjko/jpegoptim) 和 [mozjpeg](https://github.com/mozilla/mozjpeg) 也支持无损JPEG压缩。我们会稍后介绍。
 
-### [The advantages of Progressive JPEGs](#the-advantages-of-progressive-jpegs){#the-advantages-of-progressive-jpegs}
+### [渐进式JPEG的优势](#the-advantages-of-progressive-jpegs){#the-advantages-of-progressive-jpegs}
 
 The ability for PJPEGs to offer low-resolution "previews" of an image as it loads improves perceived performance - users can feel like the image is loading faster compared to adaptive images.
 
