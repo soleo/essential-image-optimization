@@ -1,4 +1,4 @@
-### [三分钟概括](#the-tldr){#the-tldr}
+### [长话短说](#the-tldr){#the-tldr}
 
 **所有人都应该自动化图像压缩的过程。**
 
@@ -268,7 +268,7 @@ Jeremy Wagner 在他的图像优化演讲中评估了不同格式所涵盖的[�
 
 ## [谦逊的JPEG](#the-humble-jpeg){#the-humble-jpeg}
 
-The [JPEG](https://en.wikipedia.org/wiki/JPEG) may well be the world's most widely used image format. As noted earlier, [45% of the images](http://httparchive.org/interesting.php) seen on sites crawled by HTTP Archive are JPEGs. Your phone, your digital SLR, that old webcam - everything pretty much supports this codec. It's also very old, dating all the way back to 1992 when it was first released. In that time, there's been an immense body of research done attempting to improve what it offers.
+[JPEG](https://en.wikipedia.org/wiki/JPEG)可能是目前世界上最广泛使用的的图像格式。 As noted earlier, [45% of the images](http://httparchive.org/interesting.php) seen on sites crawled by HTTP Archive are JPEGs. Your phone, your digital SLR, that old webcam - everything pretty much supports this codec. It's also very old, dating all the way back to 1992 when it was first released. In that time, there's been an immense body of research done attempting to improve what it offers.
 
 JPEG is a lossy compression algorithm that discards information in order to save space and many of the efforts that came after it attempted to preserve visual fidelity while keeping file sizes as small as possible.
 
