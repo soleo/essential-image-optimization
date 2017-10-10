@@ -268,13 +268,13 @@ Jeremy Wagner 在他的图像优化演讲中评估了不同格式所涵盖的[�
 
 ## [谦逊的JPEG](#the-humble-jpeg){#the-humble-jpeg}
 
-[JPEG](https://en.wikipedia.org/wiki/JPEG)可能是目前世界上最广泛使用的的图像格式。 就像之前所说，[45%的图像](http://httparchive.org/interesting.php)被HTTP Archive的爬虫爬到都是JPEG格式。 Your phone, your digital SLR, that old webcam - everything pretty much supports this codec. It's also very old, dating all the way back to 1992 when it was first released. In that time, there's been an immense body of research done attempting to improve what it offers.
+[JPEG](https://en.wikipedia.org/wiki/JPEG)可能是目前世界上最广泛使用的的图像格式。 就像之前所说，[45%的图像](http://httparchive.org/interesting.php)被HTTP Archive的爬虫爬到都是JPEG格式。 你的手机、你的单反相机以及那些老式网络摄像头，这些设备几乎都支持这个编解码器。 它也有非常悠久的历史，甚至可以追溯到1992年它首次发布的时候。 与此同时，许多专家学者们也试图改进JPEG。
 
-JPEG is a lossy compression algorithm that discards information in order to save space and many of the efforts that came after it attempted to preserve visual fidelity while keeping file sizes as small as possible.
+JPEG是一种有损压缩算法，它通过剔除某些信息从而达到节省空间的效果，之后的很多努力都集中在试图保留视觉保真度且同时尽可能多的减小文件大小。
 
-**What image quality is acceptable for your use-case?**
+**在你的使用用例中， 什么是可接受的图像质量？**
 
-Formats like JPEG are best suited for photographs or images with a number of color regions. Most optimisation tools will allow you to set what level of compression you're happy with; higher compression reduces file size but can introduce artifacts, halos or blocky degrading.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image5.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image5.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/q_100/v1502426282/essential-image-optimization/Modern-Image5.jpg" /> 
+像JPEG这种格式最适合用于照片和有相当数目颜色区间的图像。 Most optimisation tools will allow you to set what level of compression you're happy with; higher compression reduces file size but can introduce artifacts, halos or blocky degrading.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image5.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image5.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/q_100/v1502426282/essential-image-optimization/Modern-Image5.jpg" /> 
 
 <img
         class="lazyload"
