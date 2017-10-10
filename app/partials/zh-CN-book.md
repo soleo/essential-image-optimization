@@ -298,11 +298,11 @@ JPEG是一种有损压缩算法，它通过剔除某些信息从而达到节省�
 
 ## [JPEG压缩模式](#jpeg-compression-modes){#jpeg-compression-modes}
 
-The JPEG image format has a number of different [compression modes](http://cs.haifa.ac.il/~nimrod/Compression/JPEG/J5mods2007.pdf). Three popular modes are baseline (sequential), Progressive JPEG (PJPEG) and lossless.
+JPEG图像格式有一系列不同的[压缩模式](http://cs.haifa.ac.il/~nimrod/Compression/JPEG/J5mods2007.pdf)。 三个最为常用的模式是基线（序列）、渐进式JPEG（PJPEG）和无损。
 
-**How do baseline (or sequential) JPEGs and Progressive JPEGs differ?**
+**基线（序列）JPEG和渐进式JPEG到底有啥区别？**
 
-Baseline JPEGs (the default for most image editing and optimisation tools) are encoded and decoded in a relatively simple manner: top to bottom. When baseline JPEGs load on slow or spotty connections, users see the top of the image with more of it revealed as the image loads. Lossless JPEGs are similar but have a smaller compression ratio.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image6.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image6.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image6.jpg" /> 
+基线JPEG通常是大部分图像编辑和优化工具的默认选项，它编码和解码的方式相对简单，就是从上到下进行编解码。 当基线JPEG加载时，一旦网络比较差的时候，用户会看到图像会先看到图像的上半部分，然后逐渐变完整。 无损JPEG也是相似的，只是压缩率比较低罢了。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image6.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image6.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image6.jpg" /> 
 
 <img
         class="lazyload"
@@ -311,7 +311,7 @@ Baseline JPEGs (the default for most image editing and optimisation tools) are e
 
 <noscript>
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image6.jpg" />
-</noscript></picture> <figcaption>Baseline JPEGs load top to bottom while Progressive JPEGs load from blurry to sharp.</figcaption> </figure> 
+</noscript></picture> <figcaption>相较于基线JPEG从上到下的加载，渐进式JPEG能从模糊到清晰的加载。</figcaption> </figure> 
 
 Progressive JPEGs divide the image into a number of scans. The first scan shows the image in a blurry or low-quality setting and following scans improve image quality. Think of this as "progressively" refining it. Each "scan" of an image adds an increasing level of detail. When combined this creates a full-quality image.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image7.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image7.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1502426282/essential-image-optimization/Modern-Image7.jpg" /> 
 
