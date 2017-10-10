@@ -274,7 +274,7 @@ JPEG是一种有损压缩算法，它通过剔除某些信息从而达到节省�
 
 **在你的使用用例中， 什么是可接受的图像质量？**
 
-像JPEG这种格式最适合用于照片和有相当数目颜色区间的图像。 Most optimisation tools will allow you to set what level of compression you're happy with; higher compression reduces file size but can introduce artifacts, halos or blocky degrading.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image5.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image5.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/q_100/v1502426282/essential-image-optimization/Modern-Image5.jpg" /> 
+像JPEG这种格式最适合用于照片和有相当数目颜色区间的图像。 大多是的优化工具允许设置你所满意的不同的级别的压缩率。压缩率越高，文件就越小，然而与此同时也来带来更多的瑕疵。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1502426282/essential-image-optimization/Modern-Image5.jpg" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1502426282/essential-image-optimization/Modern-Image5.jpg" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/q_100/v1502426282/essential-image-optimization/Modern-Image5.jpg" /> 
 
 <img
         class="lazyload"
@@ -283,11 +283,11 @@ JPEG是一种有损压缩算法，它通过剔除某些信息从而达到节省�
 
 <noscript>
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/q_100/v1502426282/essential-image-optimization/Modern-Image5.jpg" />
-</noscript></picture> <figcaption>JPEG: Perceivable JPEG compression artifacts can increase as we shift from best quality to lowest. Note that image quality scores in one tool can be very different to quality scores in another.</figcaption> </figure> 
+</noscript></picture> <figcaption>JPEG：能够被人眼感知到的JPEG压缩后的瑕疵会随着高质量到低质量越来越明显 值得注意的是，图像质量比分在不同的工具可能相差很大</figcaption> </figure> 
 
-When choosing what quality setting to opt for, consider what quality bucket your images fall into:
+当你选择什么样的质量设定时，考虑一下你的图像应该落入哪个区间里：
 
-* **Best quality** - when quality matters more than bandwidth. This may be because the image has high prominence in your design or is displayed at full resolution.
+* **最佳质量**-当质量比带宽更重要。这可能是因为图像在你的设计中需要高度突出或全分辨率显示。
 * **Good quality** - when you care about shipping smaller file-sizes, but don't want to negatively impact image quality too much. Users still care about some level of image quality.
 * **Low quality** - when you care enough about bandwidth that image degradation is okay. These images are suitable for spotty/poor network conditions.
 * **Lowest quality** - bandwidth savings are paramount. Users want a decent experience but will accept a pretty degraded experience for the benefit of pages loading more quickly.
