@@ -328,7 +328,7 @@ JPEG图像格式有一系列不同的[压缩模式](http://cs.haifa.ac.il/~nimro
 
 ### [渐进式JPEG的优势](#the-advantages-of-progressive-jpegs){#the-advantages-of-progressive-jpegs}
 
-The ability for PJPEGs to offer low-resolution "previews" of an image as it loads improves perceived performance - users can feel like the image is loading faster compared to adaptive images.
+渐进式JPEG提供一个低分辨率的预览版本，这样用户会感觉图片加载速度快很多。
 
 On slower 3G connections, this allows users to see (roughly) what's in an image when only part of the file has been received and make a call on whether to wait for it to fully load. This can be more pleasant than the top-to-bottom display of images offered by baseline JPEGs.<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1504993129/essential-image-optimization/pjpeg-graph.png" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1504993129/essential-image-optimization/pjpeg-graph.png" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1504993129/essential-image-optimization/pjpeg-graph.png" /> 
 
