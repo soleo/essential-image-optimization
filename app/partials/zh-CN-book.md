@@ -1,6 +1,6 @@
 ### [长话短说](#the-tldr){#the-tldr}
 
-**所有人都应该自动化图像压缩的过程。**
+**图片压缩的自动化是很有必要的。**
 
 如今已是2017年，图像优化本应该被自动化。 最佳实践总在变，还容易被遗忘，不经过生产线的内容很容易被忽略，怎么办？ 自动化帮你忙：在生产过程中使用 [imagemin](https://github.com/imagemin/imagemin) 或者 [libvps](https://github.com/jcupitt/libvips) 。 还有更多替代方案来帮你解决。
 
