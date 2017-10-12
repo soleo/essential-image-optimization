@@ -466,7 +466,7 @@ Trivia: The exact method of Chroma subsampling wasn’t specified in the JPEG sp
 
 For a further read on Chroma Subsampling, see [Why aren’t your images using Chroma subsampling?](https://calendar.perfplanet.com/2015/why-arent-your-images-using-chroma-subsampling/).
 
-### [How far have we come from the JPEG?](#how-far-have-we-come-from-the-jpeg){#how-far-have-we-come-from-the-jpeg}
+### [我们从 JPEG 走了多远？](#how-far-have-we-come-from-the-jpeg){#how-far-have-we-come-from-the-jpeg}
 
 **Here's the current state of image formats on the web:**
 
