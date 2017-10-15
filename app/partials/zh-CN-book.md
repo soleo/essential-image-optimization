@@ -341,9 +341,9 @@ JPEG图像格式有一系列不同的[压缩模式](http://cs.haifa.ac.il/~nimro
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1504993129/essential-image-optimization/pjpeg-graph.png" />
 </noscript></picture> <figcaption>在 2015 年，\[Facebook 切换到 渐进式JPEG ( Facebook的iOS客户端)\] (https://code.facebook.com/posts/857662304298232/faster-photos-in-facebook-for-ios/) ，为用户节省了10%的数据量。 如上图所示，相较于之前，正常质量的图片感知加载速度快了15%， </figure> 
 
-与10KB以上大小，使用基线或者简单压缩的 JPEG相比，渐进式JPEG可以提高压缩率并且减少[2-10%](http://www.bookofspeed.com/chapter5.html)的带宽使用量。 得益于每次扫描时，JPEG可以拥有自己专用的[霍夫曼编码表](https://en.wikipedia.org/wiki/Huffman_coding)，我们可以达到更高的压缩比率。 Modern JPEG encoders (e.g [libjpeg-turbo](http://libjpeg-turbo.virtualgl.org/), MozJPEG, etc.) take advantage of PJPEG’s flexibility to pack data better.<aside class="note">
+与10KB以上大小，使用基线或者简单压缩的 JPEG相比，渐进式JPEG可以提高压缩率并且减少[2-10%](http://www.bookofspeed.com/chapter5.html)的带宽使用量。 得益于每次扫描时，JPEG可以拥有自己专用的[霍夫曼编码表](https://en.wikipedia.org/wiki/Huffman_coding)，我们可以达到更高的压缩比率。 现代JPEG的编码器，比如[libjpeg-turbo](http://libjpeg-turbo.virtualgl.org/)、MozJPEG等等，可以利用渐进式JPEG的灵活性，更好地打包数据。<aside class="note">
 
-**Note:** Why do PJPEGs compress better? Baseline JPEG blocks are encoded one at a time. With PJPEGs, similar \[Discrete Cosine Transform\](https://en.wikipedia.org/wiki/Discrete_cosine_transform) coefficients across more than one block can be encoded together leading to better compression.</aside> 
+**注：**为啥渐进式JPEG压缩更牛X呢？ Baseline JPEG blocks are encoded one at a time. With PJPEGs, similar \[Discrete Cosine Transform\](https://en.wikipedia.org/wiki/Discrete_cosine_transform) coefficients across more than one block can be encoded together leading to better compression.</aside> 
 
 ### [Who's using Progressive JPEGs in production?](#whos-using-progressive-jpegs-in-production){#whos-using-progressive-jpegs-in-production}
 
