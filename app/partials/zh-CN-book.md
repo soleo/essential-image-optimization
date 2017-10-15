@@ -330,7 +330,7 @@ JPEG图像格式有一系列不同的[压缩模式](http://cs.haifa.ac.il/~nimro
 
 渐进式JPEG提供一个低分辨率的预览版本，这样用户会感觉图片加载速度快很多。
 
-On slower 3G connections, this allows users to see (roughly) what's in an image when only part of the file has been received and make a call on whether to wait for it to fully load. 这可比基线 Jpeg 的从上到下加载爽多了。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1504993129/essential-image-optimization/pjpeg-graph.png" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1504993129/essential-image-optimization/pjpeg-graph.png" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1504993129/essential-image-optimization/pjpeg-graph.png" /> 
+在速度比较慢的3G网络中，当只有文件的一部分已经接收到后， 用户可以粗略的看出图片的内容是什么样的，进而决定是继续加载还是放弃。 这可比基线 Jpeg 的从上到下加载爽多了。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1504993129/essential-image-optimization/pjpeg-graph.png" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1504993129/essential-image-optimization/pjpeg-graph.png" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1504993129/essential-image-optimization/pjpeg-graph.png" /> 
 
 <img
         class="lazyload small"
