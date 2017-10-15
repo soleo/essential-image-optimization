@@ -330,7 +330,7 @@ JPEG图像格式有一系列不同的[压缩模式](http://cs.haifa.ac.il/~nimro
 
 渐进式JPEG提供一个低分辨率的预览版本，这样用户会感觉图片加载速度快很多。
 
-在速度比较慢的3G网络中，当只有文件的一部分已经接收到后， 用户可以粗略的看出图片的内容是什么样的，进而决定是继续加载还是放弃。 这可比基线 Jpeg 的从上到下加载爽多了。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1504993129/essential-image-optimization/pjpeg-graph.png" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1504993129/essential-image-optimization/pjpeg-graph.png" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1504993129/essential-image-optimization/pjpeg-graph.png" /> 
+在速度比较慢的3G网络中，当只有文件的一部分已经接收到后， 用户可以粗略的看出图片的内容是什么样的，进而决定是继续加载还是放弃。 这可比基线 JPEG 的从上到下的加载有效很多。<figure> <picture> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_500/v1504993129/essential-image-optimization/pjpeg-graph.png" media="(max-width: 640px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_900/v1504993129/essential-image-optimization/pjpeg-graph.png" media="(max-width: 1024px)" /> <source data-srcset="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1504993129/essential-image-optimization/pjpeg-graph.png" /> 
 
 <img
         class="lazyload small"
@@ -339,9 +339,9 @@ JPEG图像格式有一系列不同的[压缩模式](http://cs.haifa.ac.il/~nimro
 
 <noscript>
   <img src="https://res.cloudinary.com/ddxwdqwkr/image/upload/v1504993129/essential-image-optimization/pjpeg-graph.png" />
-</noscript></picture> <figcaption>在 2015 年，\[Facebook 切换到 PJPEG ( iOS 应用程序)\] (https://code.facebook.com/posts/857662304298232/faster-photos-in-facebook-for-ios/) ，用户使用的数据减少了 10%。 They were able to show a good quality image 15% faster than previously, optimising perceived loading time, as shown in the figure above.</figcaption> </figure> 
+</noscript></picture> <figcaption>在 2015 年，\[Facebook 切换到 渐进式JPEG ( Facebook的iOS客户端)\] (https://code.facebook.com/posts/857662304298232/faster-photos-in-facebook-for-ios/) ，为用户节省了10%的数据量。 如上图所示，相较于之前，正常质量的图片感知加载速度快了15%， </figure> 
 
-PJPEGs can improve compression, consuming [2-10%](http://www.bookofspeed.com/chapter5.html) less bandwidth compared to baseline/simple JPEGs for images over 10KB. Their higher compression ratio is thanks to each scan in the JPEG being able to have its own dedicated optional [Huffman table](https://en.wikipedia.org/wiki/Huffman_coding). Modern JPEG encoders (e.g [libjpeg-turbo](http://libjpeg-turbo.virtualgl.org/), MozJPEG, etc.) take advantage of PJPEG’s flexibility to pack data better.<aside class="note">
+与10KB以上大小，使用基线或者简单压缩的 JPEG相比，渐进式JPEG可以提高压缩率并且减少[2-10%](http://www.bookofspeed.com/chapter5.html)的带宽使用量。 得益于每次扫描时，JPEG可以拥有自己专用的[霍夫曼编码表](https://en.wikipedia.org/wiki/Huffman_coding)，我们可以达到更高的压缩比率。 Modern JPEG encoders (e.g [libjpeg-turbo](http://libjpeg-turbo.virtualgl.org/), MozJPEG, etc.) take advantage of PJPEG’s flexibility to pack data better.<aside class="note">
 
 **Note:** Why do PJPEGs compress better? Baseline JPEG blocks are encoded one at a time. With PJPEGs, similar \[Discrete Cosine Transform\](https://en.wikipedia.org/wiki/Discrete_cosine_transform) coefficients across more than one block can be encoded together leading to better compression.</aside> 
 
